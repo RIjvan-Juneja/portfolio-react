@@ -1,22 +1,20 @@
 import React from 'react';
 import "./about.css";
 import Info from "./info";
-import CV from "../../assets/juneja (5).pdf";
+import CV from "../../assets/Resume (2).pdf";
 
 
-const About = () => {
+const About = ({Heading,img,description,CV}) => {
   return (
     <section className="about section" id="about">
         <h2 className="section__title">About Me</h2>
-        <span className="section__subtitle">My Introduction</span>
+        <span className="section__subtitle">{Heading}</span>
     
         <div className="about__container container grid">
-            <img src={require('../../assets/about_img.JPG')} alt="about img" className="about__img" />
+            <img src={img} alt="about img" className="about__img" />
             <div className="about__data">
-                <Info/>
-
                 <p className="about__description">
-                Hello, I am Rijvan Juneja from Bhavnagar. I am currently pursuing B.E. in Information Technology at Gyanmanjari Institute of Technology College. My professional skills include web development in HTML, CSS, and JavaScript, and I have basic knowledge of Node.js and React.js. In addition, I joined PW Full Stack Development Course where I learned about the latest technologies. I like to build reliable, easy-to-understand, and fast software. Now I am looking for a full-stack development internship or job opportunity. I am very interested in the latest technologies like React and Node.js.
+              {description}
                 </p>
 
                 <a href={CV} className="button button--flex" target={'_blank'}>Download CV

@@ -21,14 +21,14 @@ const Footer = () => {
             </ul>
 
             <div className="footer__social">
-                    <a href="https://www.linkedin.com/in/juneja-rijvan-b19a6b205/" className="footer__social-link" target="_blank">
+                    <a href="https://www.linkedin.com/in/rijvan-juneja/" className="footer__social-link" target="_blank">
                         <i className="uil uil-linkedin-alt"></i>
                     </a>
                     
                     <a href="https://github.com/RIjvan-Juneja" className="footer__social-link" target="_blank">
                         <i className="uil uil-github-alt"></i>
                     </a>
-                    <a href="https://www.instagram.com/_rijvan_juneja/" className="footer__social-link" target="_blank">
+                    <a href="https://www.instagram.com/_rijvan_juneja/?igshid=ZGUzMzM3NWJiOQ%3D%3D" className="footer__social-link" target="_blank">
                         <i className="uil uil-instagram"></i>
                     </a>
             </div>

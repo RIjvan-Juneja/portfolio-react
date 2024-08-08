@@ -98,7 +98,7 @@ const Qualification = () => {
                 <span className="qualification__subtitle">Front-end & Back-end</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i>
-                  03/03/2023 - 27/05/2023
+                  03/03/2023 - 08/06/2023
                 </div>
               </div>
 
@@ -118,8 +118,12 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">-</h3>
-                <span className="qualification__subtitle"></span>
+                <h3 className="qualification__title">Assistant Professor Intern.</h3>
+                <span className="qualification__subtitle">Data Structure</span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calendar-alt"></i>
+                  28/08/2023 - 31/12/2023
+                </div>
               </div>
             </div>
           

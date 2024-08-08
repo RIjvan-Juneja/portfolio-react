@@ -5,8 +5,7 @@ export const Data = [
         title : "Pratham Joshi",
         sub_title : "Front-end Developer",
         description : "Hello, I Love to Build Realiable and Understandble Code's Websites ",
-    },
-    
+    },    
     {
         id : 2,
         image : require('../../assets/dhyey_photo.png'),
@@ -28,25 +27,5 @@ export const Data = [
         sub_title : "React Developer",
         description : "Learning React. My professional skills include python and JavaScript",
     },
-    {
-        id : 5,
-        image : require('../../assets/sumit_photo.jpg'),
-        title : "Sumit Bhojani",
-        sub_title : "Front-end Developer",
-        description : "I Currently pursuing B.E In IT from Gyanmanjari Institute Of Technology",
-    },
-    {
-        id : 6,
-        image : require('../../assets/paramshiv_photo.png'),
-        title : "Paramshiv Mehta",
-        sub_title : "Programmer",
-        description : "I Currently pursuing B.E In IT from Gyanmanjari Institute Of Technology",
-    },
-    {
-        id : 7,
-        image : require('../../assets/darshan__photo.png'),
-        title : "Darshan Mithapara",
-        sub_title : "Front-end Developer",
-        description : "I Currently pursuing B.E In Information Technology, HTML,CSS and JavaScript",
-    },
+    
 ];
